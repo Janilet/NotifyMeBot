@@ -1,0 +1,23 @@
+{
+  "name": "notification-bot",
+  "version": "1.0.0",
+  "description": "Notify Me Bot is a simple notification service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "deploy-cmd.js"
+  },
+  "keywords": [],
+  "author": "Janilet Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "djs-commander": "^0.0.50",
+    "dotenv": "^16.4.5",
+    "dotenv-extended": "^2.9.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "path": "^0.12.7",
+    "twitch": "^4.6.7"
+  }
+}
